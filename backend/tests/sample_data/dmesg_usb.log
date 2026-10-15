@@ -1,0 +1,29 @@
+[ 1245.892011] usb 1-1.2: new high-speed USB device number 5 using xhci_hcd
+[ 1245.993412] usb 1-1.2: New USB device found, idVendor=0781, idProduct=5581, bcdDevice= 1.00
+[ 1245.993418] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1245.993420] usb 1-1.2: Product: Ultra
+[ 1245.993423] usb 1-1.2: Manufacturer: SanDisk
+[ 1245.993425] usb 1-1.2: SerialNumber: 4C530001250912117462
+[ 1246.002199] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[ 1246.003512] scsi host4: usb-storage 1-1.2:1.0
+[ 1247.019441] scsi 4:0:0:0: Direct-Access     SanDisk  Ultra            1.00 PQ: 0 ANSI: 6
+[ 1247.021002] sd 4:0:0:0: Attached scsi generic sg2 type 0
+[ 1247.022301] sd 4:0:0:0: [sdb] 60063744 512-byte logical blocks: (30.8 GB/28.6 GiB)
+[ 1247.023190] sd 4:0:0:0: [sdb] Write Protect is off
+[ 1247.023193] sd 4:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 1247.024011] sd 4:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 1247.028910]  sdb: sdb1
+[ 1247.031200] sd 4:0:0:0: [sdb] Attached SCSI removable disk
+[ 3890.114002] usb 2-2: new SuperSpeed USB device number 3 using xhci_hcd
+[ 3890.134901] usb 2-2: New USB device found, idVendor=0951, idProduct=1666, bcdDevice= 1.10
+[ 3890.134905] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 3890.134908] usb 2-2: Product: DataTraveler 3.0
+[ 3890.134910] usb 2-2: Manufacturer: Kingston
+[ 3890.134912] usb 2-2: SerialNumber: 0018F12B4F83EC21191E002B
+[ 3890.137882] usb-storage 2-2:1.0: USB Mass Storage device detected
+[ 3890.138200] scsi host5: usb-storage 2-2:1.0
+[ 3891.140220] scsi 5:0:0:0: Direct-Access     Kingston DataTraveler 3.0 PMAP PQ: 0 ANSI: 6
+[ 3891.141501] sd 5:0:0:0: [sdc] 121044992 512-byte logical blocks: (62.0 GB/57.7 GiB)
+[ 3891.142010] sd 5:0:0:0: [sdc] Write Protect is off
+[ 3891.145100]  sdc: sdc1 sdc2
+[ 3891.148000] sd 5:0:0:0: [sdc] Attached SCSI removable disk

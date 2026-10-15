@@ -1,0 +1,12 @@
+Oct 05 10:14:22 forensic-station kernel: [ 1245.892011] usb 1-1.2: new high-speed USB device number 5 using xhci_hcd
+Oct 05 10:14:22 forensic-station kernel: [ 1245.993412] usb 1-1.2: New USB device found, idVendor=0781, idProduct=5581, bcdDevice= 1.00
+Oct 05 10:14:22 forensic-station kernel: [ 1245.993423] usb 1-1.2: Manufacturer: SanDisk
+Oct 05 10:14:22 forensic-station kernel: [ 1245.993425] usb 1-1.2: SerialNumber: 4C530001250912117462
+Oct 05 10:14:23 forensic-station kernel: [ 1246.002199] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+Oct 05 10:14:24 forensic-station kernel: [ 1247.031200] sd 4:0:0:0: [sdb] Attached SCSI removable disk
+Oct 05 10:14:25 forensic-station udisksd[812]: Mounted /dev/sdb1 at /media/investigator/SANDISK_32G on behalf of uid 1000
+Oct 06 18:30:11 forensic-station kernel: [ 3890.114002] usb 2-2: new SuperSpeed USB device number 3 using xhci_hcd
+Oct 06 18:30:11 forensic-station kernel: [ 3890.134901] usb 2-2: New USB device found, idVendor=0951, idProduct=1666, bcdDevice= 1.10
+Oct 06 18:30:11 forensic-station kernel: [ 3890.134910] usb 2-2: Manufacturer: Kingston
+Oct 06 18:30:11 forensic-station kernel: [ 3890.134912] usb 2-2: SerialNumber: 0018F12B4F83EC21191E002B
+Oct 06 18:30:12 forensic-station udisksd[812]: Mounted /dev/sdc1 at /media/investigator/KINGSTON_64 on behalf of uid 1000
