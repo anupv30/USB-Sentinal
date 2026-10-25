@@ -1,83 +1,28 @@
-# Byte-compiled / optimized / DLL files
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 env/
 venv/
-.venv/
 ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+.venv/
 
-# Database
-*.sqlite
-*.sqlite3
-*.db
+# USB Sentinel Quarantine Vault (Contains isolated malware payloads and encryption keys)
+.sentinel_quarantine/
+vault.key
+vault_metadata.json
 
-# Environment variables
-.env
-.env.local
+# Generated Forensic PDF Reports
+forensic_reports/
+*.pdf
 
-# Node & Frontend
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# IDE & OS
+# IDE and OS files
 .vscode/
 .idea/
 *.swp
 *.swo
-.DS_Store
 Thumbs.db
-
-# Additional Python test caches
-.pytest_cache/
-.ruff_cache/
-
-# Additional environment files
-.env.*
-!.env.example
-
-# Private keys and credentials
-*.pem
-*.key
-
-# Local forensic evidence
-*.log
-*.raw
-*.img
-*.dd
-
-# IBM Bob and generated diagrams
-.bob/
-report_diagrams/
-
-# Allow synthetic test logs
-!backend/tests/sample_data/
-!backend/tests/sample_data/*.log
-
-# Local suspicious-file test fixtures
-backend/tests/mock_files/   
+Desktop.ini
+.DS_Store
